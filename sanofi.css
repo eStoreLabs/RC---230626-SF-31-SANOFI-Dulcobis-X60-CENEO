@@ -39,6 +39,11 @@
   margin-top: 0;
   padding: 0 0 1.5rem 0;
 }
+#es-rc #es-rc-content .es-kv__pills {
+  top: 69%;
+  left: 48%;
+  width: 60%;
+}
 
 #es-rc #es-rc-content {
   font-family: "Montserrat";
@@ -70,6 +75,12 @@
 #es-rc #es-rc-content .es-nowrap {
   white-space: nowrap;
 }
+#es-rc #es-rc-content ul li {
+  list-style: none;
+}
+#es-rc #es-rc-content ol li {
+  list-style: arabic;
+}
 #es-rc #es-rc-content .es-kv__container {
   padding: 0;
 }
@@ -89,6 +100,10 @@
 @media (min-width: 576px) {
   #es-rc #es-rc-content .es-kv__mobile {
     display: none;
+  }
+  #es-rc #es-rc-content .es-kv__pills {
+    top: 54.3%;
+    left: 48%;
   }
 }
 #es-rc #es-rc-content .es-kv__desktop {
@@ -470,7 +485,7 @@
   border: 3px solid white;
 }
 #es-rc #es-rc-content .es-cross .text-left--0 {
-  height: 80.3px;
+  height: 72.3px;
 }
 #es-rc #es-rc-content .es-cross .text-left--1 {
   height: 44.8px;
@@ -497,6 +512,7 @@
   border-radius: 10px;
 }
 #es-rc #es-rc-content .es-cross td {
+  text-align: center;
   vertical-align: middle;
   border: none;
   min-width: 150px;
@@ -586,6 +602,7 @@
   background-color: #FFF;
   color: #00604d;
   outline: 3px solid #00604d;
+  cursor: pointer;
 }
 @media (min-width: 992px) {
   #es-rc #es-rc-content .es-articles__button {
