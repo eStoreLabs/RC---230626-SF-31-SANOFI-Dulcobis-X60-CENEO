@@ -481,6 +481,9 @@
   border-color: transparent;
   font-size: clamp(12px, 9.722px + 0.6329vw, 16px);
 }
+#es-rc #es-rc-content .es-cross .padding-bottom-0 {
+  padding-bottom: 0;
+}
 #es-rc #es-rc-content .es-cross__table--left tbody {
   border: 3px solid white;
 }
